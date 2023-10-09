@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgb(240, 240, 240);
+}
+
+/* Navbar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(55, 55, 249);
+  padding: 12px 0;
+}
+
+nav .logo{
+  margin-left: 40px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 15%;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav .sNavbar{
+  width: 60%;
+}
+nav .sNavbar input{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 24px;
+}
+
+.rNavbar ul{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+  width: 200px;
+}
+
+
+/* Navbar End */
