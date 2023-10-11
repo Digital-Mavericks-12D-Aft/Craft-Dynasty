@@ -2,16 +2,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    width: 100;
 }
 
-#home{
+#home {
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 80vh;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -35,7 +36,8 @@ ul{
     margin-right: 30px;
     font-weight: bold;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: grey;
     text-decoration: underline;
 }
@@ -76,20 +78,23 @@ ul{
     display: none;
     position: absolute;
     background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     z-index: 1;
     top: 50px;
 }
-#dropdown-bell{
+
+#dropdown-bell {
     width: 200px;
     left: -20px;
 }
-#dropdown-comment{
+
+#dropdown-comment {
     width: 250px;
     left: -120px;
 }
-#dropdown-account{
+
+#dropdown-account {
     top: 60px;
     width: 150px;
     left: -75px;
@@ -103,6 +108,7 @@ ul{
     margin: 10px 15px;
     text-align: left;
 }
+
 .dropdown-content input[type="text"] {
     width: 80%;
     padding: 8px;
@@ -110,57 +116,62 @@ ul{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .dropdown-content a {
     display: block;
     padding: 8px 16px;
     text-decoration: none;
     color: black;
 }
+
 .dropdown-content a:hover {
     color: rgb(150, 150, 150);
 }
+
 .dropdown:focus-within .icon-button {
     color: rgb(2, 2, 194);
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
-#msk{
+
+#msk {
     margin-left: 8px;
 }
 
-#about{
-    width: 100%;
+#about {
+    width: auto;
     height: 100vh;
     position: relative;
-    margin: 50px 50px;
 }
 
-.row{
+.row {
     margin: 30px;
     padding: 20px;
     display: flex;
 }
 
-.columns{
+.columns {
     flex: 50%;
     padding: 10px;
     height: 20vh;
 }
 
-.row .columns h2{
-    color: black;
+.row .columns h1 {
+    color: #243757;
     text-align: left;
 
 }
-.row .columns p{
-    color: black;
+
+.row .columns p {
+    color: #243757;
     text-align: justify;
 }
 
-.content{
+.content {
     display: flex;
-    width: 100%;
+    width: auto;
     height: 70vh;
 }
 
@@ -179,11 +190,17 @@ ul{
     background-position: 50% 50%;
 }
 
+.overlap-1:hover {
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
 .text-wrapper-1 {
     position: absolute;
-    top: 76px;
-    left: 350px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 10px;
+    left: 230px;
+    font-size: 62px;
+    color: #FAFBFB;
     white-space: nowrap;
 }
 
@@ -200,59 +217,185 @@ ul{
     height: 220px;
     background-size: cover;
     background-position: 50% 50%;
-  }
+}
 
-  .text-wrapper-2 {
+.overlap-2:hover {
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text-wrapper-2 {
     position: absolute;
-    top: 75px;
-    left: 150px;
+    top: 20px;
+    left: 100px;
     white-space: nowrap;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+    font-size: 62px;
+    color: #FAFBFB;
+}
 
-  .overlap-wrapper-3 {
+.overlap-wrapper-3 {
     position: absolute;
     width: 460px;
     height: 220px;
     top: 550px;
     left: 560px;
-  }
-  
-  .overlap-3 {
+}
+
+.overlap-3 {
     position: relative;
     height: 220px;
     background-size: cover;
     background-position: 50% 50%;
-  }
-  
-  .text-wrapper-3 {
-    position: absolute;
-    top: 76px;
-    left: 170px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    white-space: nowrap;
-  }
+}
 
-  .overlap-wrapper-4 {
+.overlap-3:hover {
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text-wrapper-3 {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    font-size: 62px;
+    color: #FAFBFB;
+    white-space: nowrap;
+}
+
+.overlap-wrapper-4 {
     position: absolute;
     width: 320px;
     height: 500px;
     top: 300px;
     left: 1040px;
-  }
-  
-  .overlap-4 {
+}
+
+.overlap-4 {
     position: relative;
     height: 470px;
     background-image: url(assets/image-4.png);
     background-size: cover;
     background-position: 50% 50%;
-  }
-  
-  
-  .text-wrapper-4 {
+}
+
+.overlap-4:hover {
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.text-wrapper-4 {
     position: absolute;
-    top: 195px;
-    left: 120px;
+    top: 150px;
+    left: 70px;
+    font-size: 62px;
+    color: #FAFBFB;
     white-space: nowrap;
-  }
+}
+
+footer {
+    color: #243757;
+    padding: 20px 0;
+    margin-top: 10%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.web-info {
+    flex: 2;
+
+    padding-right: 200px;
+}
+
+.web-info h1 {
+    font-size: 24px;
+    color: #2b4aea;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-content h3 {
+    color: #2b4aea;
+}
+
+.kategori,
+.sumber-daya,
+.hubungi-kami {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+input,
+button {
+    margin: 5px 0;
+    padding: 5px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+input {
+    border: #d2d2d3 solid 1px;
+}
+
+button {
+    color: #fafbfb;
+    background-color: #2b4aea;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-line {
+    border-top: 1px solid #d2d2d3;
+    margin: 20px 0;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.footer-line-top {
+    border-top: 1px solid #d2d2d3;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.social-media a {
+    color: #243757;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}
