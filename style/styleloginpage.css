@@ -24,7 +24,6 @@
     overflow: hidden;
 }
 .kotakborder{
-    order: 2px solid red;
     width: 650px;
     height: 600px;
     margin-bottom: 30px;
@@ -58,17 +57,17 @@
     max-width: 50%;
     overflow: hidden;
 }
-.login{
-    order: 2px solid red;
-}
 #craft{
     font-weight: bold;
 }
 .login h1{
-    color: #0025E6;
     font-weight: bold;
     font-size: 3em;
     margin-bottom: 15px;
+}
+.login h1 a{
+    color: #0025E6;
+    text-decoration: none;
 }
 .login p{
     font-size: 15px;
