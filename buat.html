@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat</title>
+    <link rel="stylesheet" href="style/buat.css">
+    <script src="https://kit.fontawesome.com/416589fd3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="navbar">
+            <a href="index.html"><img src="assets/logo.png" alt="Logo" class="logo"></a>
+            <a href="jelajahi.html" class="nav-link" id="Jelajahi">Jelajahi</a>
+            <a href="lomba.html" class="nav-link">Lomba</a>
+            <a href="buat.html" class="nav-link">Buat</a>
+            <input type="search" placeholder="Cari..." class="search-input">
+            
+            <div class="dropdown">
+                <a href="#" class="icon-button"><i class="fa-solid fa-bell"></i></a>
+                <div class="dropdown-content" id="dropdown-bell">
+                    <h4>Notifikasi</h4> <hr>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="#" class="icon-button"><i class="fa-solid fa-comment"></i></a>
+                <div class="dropdown-content" id="dropdown-comment">
+                    <h4>Obrolan</h4> <hr>
+                    <input type="text" placeholder="Cari obrolan">
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="loginpage.html" class="nav-link" id="msk">Masuk</a>
+            </div> 
+        </div>
+    </section>
+    
+    <section class="bingkai">
+        <div class="cover-buat">
+            <div class="deskripsi" id="kiri">
+                <div class="judul">
+                    <h2>Buat Karya</h2> 
+                </div>
+                <div>
+                    <h4>Nama Karya</h4>
+                    <p>Nama karya min. 30 karakter</p>
+                </div>
+                <div>
+                    <h4>Kategori</h4>
+                    <p>Pilih Kategori yang sesuai dengan jenis karyamu</p>
+                </div>
+                <div>
+                    <h4>Foto Karya</h4>
+                    <p>Format gambar .jpg .jpeg .png dan ukuran minimum 300 x 300px. <br> Upload min. 3 foto karyamu dari sudut berbeda untuk menarik perhatian pengunjung.</p>
+                </div> <br> <br>
+                <div>
+                    <h4>Video Tutorial</h4>
+                    <p>Upload Video tutorialmu disini dengan format video .MOV .MP4 .WMV .MPEG .AVI atau dengan link URL</p>
+                </div>
+                <div class="kry">
+                    <h4>Deskripsikan Karyamu</h4>
+                    <p>Berikan penjelasan singkat dari karyamu dan beritahukan Alat dan Bahan yang diperlukan</p>
+                </div>
+                <div class="lkh">
+                    <h4>Langkah-langkah Pembuatan</h4>
+                    <p>Upload foto langkah-langkah dan deskripsinya secara bertahap</p>
+                </div>
+            </div>
+
+            <div class="deskripsi" id="kanan">
+                <div class="jarak">
+                    <input type="text" name="nama" id="">
+                </div>
+                <div class="jarak"> 
+                    <select name="pilih" class="pilih">
+                        <option value="kerajinantangan">Kerajinan Tangan</option>
+                        <option value="kuliner">Kuliner</option>
+                        <option value="teknologi">Teknologi</option>
+                        <option value="digital">Digital</option>
+                    </select>
+                </div>
+                <div class="jarak">
+                    <div class="kotak"><p>Foto Utama</p></div>
+                    <div class="kotak"><p>Foto 2</p></div>
+                    <div class="kotak"><p>Foto 3</p></div>
+                    <div class="kotak"><p>Foto 4</p></div>
+                </div>
+                <div class="jarak">
+                    <input type="url" placeholder="masukkan url">
+                </div>
+                <div class="jarak">
+                    <input type="text" id="deskripsi-karya">
+                </div>
+                <div class="jarak" id="langkah">
+                    <div class="kotak"><p>Foto</p></div>
+                    <input type="text" placeholder="langkah">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tombol-section">
+        <div class="duatombol">
+            <form action="index.html" >
+                <button class="tombol" id="btl">Batal</button>
+            </form>
+            <form action="">
+                <button class="tombol" id="smp">Simpan</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

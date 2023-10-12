@@ -24,7 +24,7 @@ body {
 }
 .nav-link:hover{
     color: grey;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .search-input {
@@ -37,6 +37,7 @@ body {
     height: 40px;
     margin-left: -5px;
     box-shadow: 2px 2px 5px lightgray;
+    background-color: #dfe2e6;
 }
 @media screen and (max-width: 768px) {
     .nav-link {
@@ -237,7 +238,7 @@ body {
 }
 .card-content > div p{
     font-size: 12px;
-}
+}   
 .card-content > div img{
     width: 35px;
     height: 35px;
@@ -251,13 +252,11 @@ body {
 }
 .u-icon p{
     margin-left: 5px;
+    white-space: nowrap;
 }
 .u-icon i {
     margin-left: 10px; 
 }
 #love{
-    margin-left: 105px;
+    margin-left: 85px;
 }
-
-
-
