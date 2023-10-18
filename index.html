@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Utama</title>
-    <link rel="stylesheet" href="style/homepage.css">
+    <link rel="stylesheet" href="style/home.css">
     <script src="https://kit.fontawesome.com/416589fd3f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <section id="home" style="background-image: url(assets/bg.jpg);">
+    <section>
         <div class="navbar">
-            <a href="index.html"><img src="assets/logo.png" alt="Logo" class="logo"></a>
-            <ul style="display: flex;">
-                <li><a href="jelajahi.html" class="nav-link" id="Jelajahi">Jelajahi</a></li>
-                <li><a href="lomba.html" class="nav-link">Lomba</a></li>
-                <li class="dropdown"><a href="buat.html" class="nav-link">Buat</a>
-                </li>
-            </ul>
-            <input type="search" placeholder="Cari..." class="search-input">
-
-            <div class="dropdown">
-                <a href="#" class="icon-button"><i class="fa-solid fa-bell"></i></a>
-                <div class="dropdown-content" id="dropdown-bell">
-                    <h4>Notifikasi</h4>
-                    <hr>
-                </div>
+          <a href="index.html"
+            ><img src="assets/logo.png" alt="Logo" class="logo"
+          /></a>
+          <a href="jelajahi.html" class="nav-link" id="Jelajahi">Jelajahi</a>
+          <a href="lomba.html" class="nav-link">Lomba</a>
+          <a href="buat.html" class="nav-link">Buat</a>
+          <input type="search" placeholder="Cari..." class="search-input" />
+  
+          <div class="dropdown">
+            <a href="#" class="icon-button"><i class="fa-solid fa-bell"></i></a>
+            <div class="dropdown-content" id="dropdown-bell">
+              <h4>Notifikasi</h4>
+              <hr />
             </div>
-
-            <div class="dropdown">
-                <a href="#" class="icon-button"><i class="fa-solid fa-comment"></i></a>
-                <div class="dropdown-content" id="dropdown-comment">
-                    <h4>Obrolan</h4>
-                    <hr>
-                    <input type="text" placeholder="Cari obrolan">
-                </div>
+          </div>
+  
+          <div class="dropdown">
+            <a href="#" class="icon-button"
+              ><i class="fa-solid fa-comment"></i
+            ></a>
+            <div class="dropdown-content" id="dropdown-comment">
+              <h4>Obrolan</h4>
+              <hr />
+              <input type="text" placeholder="Cari obrolan" />
             </div>
-
-            <div class="dropdown">
-                <a href="loginpage.html" class="nav-link" id="msk">Masuk</a>
-            </div>
+          </div>
+  
+          <div class="dropdown">
+            <a href="loginpage.html" class="nav-link" id="msk">Masuk</a>
+          </div>
         </div>
-    </section>
-
+      </section>
     <section id="about">
+        <div class="top-img">
+            <img src="assets/bg.jpg" alt="">
+        </div>
+        <div class="container">
         <div class="row">
             <div class="columns">
                 <h1>Langkah demi langkah</h1>
@@ -94,6 +100,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <footer>
         <div class="footer-line-top"></div>

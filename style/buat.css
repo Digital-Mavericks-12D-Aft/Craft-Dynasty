@@ -37,7 +37,7 @@ body {
     width: 65%;
     height: 40px;
     margin-left: -5px;
-    box-shadow: 2px 2px 5px lightgray;
+    background-color: #dfe2e6;
 }
 @media screen and (max-width: 768px) {
     .nav-link {

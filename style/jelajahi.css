@@ -10,6 +10,10 @@
   padding: 6px;
   display: flex;
   align-items: center;
+  position: inherit;
+  width: 100%;
+
+  
 }
 
 .logo {
@@ -27,7 +31,7 @@
 .nav-link:hover {
   color: grey;
   text-decoration: underline;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .search-input {
@@ -130,6 +134,7 @@
   columns: 5;
   column-gap: 20px;
   padding: 20px;
+  
 }
 
 .card {
@@ -142,11 +147,15 @@
   cursor: pointer;
 }
 
+
+
 .card img {
   width: 100%;
+
 }
 
 .keterangan {
+  position: relative;
   padding: 10px;
 }
 
