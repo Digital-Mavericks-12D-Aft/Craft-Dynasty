@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #fefefe;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+}
+.navbar a.lomba{
+  background-color: #243757;
+  color:#fefefe ;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  width: 80px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: bold;
+}
+.nav-link:hover{
+  color: grey;
+  text-decoration: underline;
+}
+
+.search-input {
+  padding: 8px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 20px;
+  width: 65%;
+  height: 40px;
+  margin-left: -5px;
+  background-color: #dfe2e6;
+}
+@media screen and (max-width: 768px) {
+  .nav-link {
+      width: 5%;
+      margin-left: 10px;
+  }
+  .logo{
+      margin-left: 10px;
+  }
+}
+
+/* CSS untuk tombol ikon dan dropdown menu */
+.icon-button {
+  color: black;
+  font-size: 25px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.account-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  z-index: 1;
+  top: 50px;
+}
+#dropdown-bell{
+  width: 200px;
+  left: -20px;
+}
+#dropdown-comment{
+  width: 250px;
+  left: -120px;
+}
+#dropdown-account{
+  top: 60px;
+  width: 150px;
+  left: -75px;
+}
+
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
+
+.dropdown-content h4 {
+  margin: 10px 15px;
+  text-align: left;
+}
+.dropdown-content input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+.dropdown-content a:hover {
+  color: rgb(150, 150, 150);
+}
+.dropdown:focus-within .icon-button {
+  color: rgb(2, 2, 194);
+}
+#msk{
+  margin-left: 8px;
+}
+
+/* CSS untuk tombol ikon dan dropdown menu */
+.icon-button {
+  color: black;
+  font-size: 25px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.account-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 1;
+  top: 50px;
+}
+#dropdown-bell {
+  width: 200px;
+  left: -20px;
+}
+#dropdown-comment {
+  width: 250px;
+  left: -120px;
+}
+#dropdown-account {
+  top: 60px;
+  width: 150px;
+  left: -75px;
+}
+
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
+
+.dropdown-content h4 {
+  margin: 10px 15px;
+  text-align: left;
+}
+.dropdown-content input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+.dropdown-content a:hover {
+  color: rgb(150, 150, 150);
+}
+.dropdown:focus-within .icon-button {
+  color: rgb(2, 2, 194);
+}
+#msk {
+  margin-left: 8px;
+}
+/* navbar */
+.header {
+  width: auto;
+  height: 300px;
+  background: #8993a4;
+  background-image: url("../assets/ImageHeader.png");
+  opacity: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-size: 48px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.content {
+  display: flex;
+  width: 1050px;
+  height: auto;
+  overflow: hidden;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.content-1 {
+  width: 500px;
+  height: 400px;
+  background-image: url("../assets/ImgContent1.jpg");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.content-2 {
+  width: 500px;
+  height: 400px;
+  background-image: url("../assets/Festival.jpeg");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.content-3 {
+  width: 500px;
+  height: 400px;
+  background-image: url("../assets/ImgContent1.jpg");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 170px;
+  /* opacity: 0.5; */
+  background: rgba(21, 41, 75, 0.5);
+}
+
+.content-des1 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  font-size: 30px;
+  width: 50%;
+  text-transform: capitalize;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+.Button {
+  background-color: #2b4aea;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 28px;
+  color: #ffff;
+  border: none;
+  margin: 100px 30px 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Swiper {
+  margin-top: 100px;
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+#kanan {
+  border: none;
+  background-color: #ffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+#kiri {
+  border: none;
+  background-color: #ffff;
+  cursor: pointer;
+}
+#kanan > img {
+  width: 50px;
+  height: 50px;
+}
+#kiri > img {
+  width: 50px;
+  height: 50px;
+}
+
+.button-swiper {
+  display: flex;
+  flex-direction: row;
+}
