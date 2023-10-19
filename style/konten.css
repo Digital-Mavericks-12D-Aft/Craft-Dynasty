@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #fefefe;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.search-input {
+    padding: 8px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 20px;
+    width: 65%;
+    height: 40px;
+    margin-left: -5px;
+    background-color: #dfe2e6;
+}
+@media screen and (max-width: 768px) {
+    .nav-link {
+        width: 5%;
+        margin-left: 10px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+}
+/* CSS untuk tombol ikon dan dropdown menu */
+.icon-button {
+    color: black;
+    font-size: 25px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.account-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+    top: 50px;
+}
+#dropdown-bell{
+    width: 200px;
+    left: -20px;
+}
+#dropdown-comment{
+    width: 250px;
+    left: -120px;
+}
+#dropdown-account{
+    top: 60px;
+    width: 150px;
+    left: -75px;
+}
+
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+.dropdown-content h4 {
+    margin: 10px 15px;
+    text-align: left;
+}
+.dropdown-content input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-content a:hover {
+    color: rgb(150, 150, 150);
+}
+.dropdown:focus-within .icon-button {
+    color: rgb(2, 2, 194);
+}
+#msk{
+    margin-left: 8px;
+}
+
+
+/* Isi */
+.isi{
+    padding: 50px 100px;
+    padding-bottom: 30px;
+}
+.judul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-top: -30px; 
+}
+.judul i{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.alat{
+    list-style: disc;
+}
+.simpn{
+    display: flex;
+    justify-content: flex-end;
+}
+.simpn button{
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 2px lightgray ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.simpn button:hover{
+    background-color: lightgray;
+}
+.simpn button i {
+    color: rgb(202, 202, 202);
+    position: absolute;
+    margin-left: 5px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.simpn button:hover {
+    background-color: lightgray;
+}
+.simpn button:hover i,
+.simpn button:focus i,
+.simpn button:active i {
+    color: rgb(255, 90, 118);
+}
+.simpn button p{
+    margin-left: 10px;
+    color: black;
+}
+.imgutama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgutama iframe{
+    margin-top: 20px;
+    width: 40%;
+    max-width: 100%;
+}
+.imgutama img{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.imgutama p{
+    font-weight: bold;
+}
+.tutornya{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tutornya img{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    max-height: 550px;
+}
+
+.komentar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+#komen {
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 5px gray;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.komen {
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 213, 213);
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.komen:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+    #komen {
+        width: 90%;
+        font-size: 14px; 
+    }
+}
+
+.footer {
+    color: #243757;
+    padding: 20px 0;
+    margin-top: 10%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+}
+.web-info {
+    flex: 2;
+    padding-right: 200px;
+}
+.web-info h1 {
+    font-size: 24px;
+    color: #2b4aea;
+    margin-bottom: 20px;
+}
+.footer-links {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.footer-content h3 {
+    color: #2b4aea;
+}
+
+.kategori,
+.sumber-daya,
+.hubungi-kami {
+    flex: 1;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+input,
+button {
+    margin: 5px 0;
+    padding: 5px;
+    height: 40px;
+    border-radius: 8px;
+}
+input {
+    border: #d2d2d3 solid 1px;
+}
+button {
+    color: #fafbfb;
+    background-color: #2b4aea;
+    cursor: pointer;
+    border: none;
+}
+.footer-line {
+    border-top: 1px solid #1a1a2a;
+    margin: 20px 0;
+    max-width: 90%;
+    margin-left: 5%;
+}
+.footer-line-top {
+    border-top: 1px solid #d2d2d3;
+    margin: 20px 0;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+}
+.social-media a {
+    color: #243757;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.social-media a:hover {
+    color: #007bff;
+}
+
+

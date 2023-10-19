@@ -10,10 +10,25 @@
   padding: 6px;
   display: flex;
   align-items: center;
-  position: inherit;
+  /* position: fixed; */
   width: 100%;
+  z-index: 1;
+}
 
-  
+.navbar a.jelajahi{
+  background-color: #243757;
+  color:#fefefe ;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  width: 90px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  margin-right: 10px;
+  margin-left: -10px;
 }
 
 .logo {
@@ -134,8 +149,8 @@
   columns: 5;
   column-gap: 20px;
   padding: 20px;
-  
 }
+
 
 .card {
   width: 100%;
@@ -323,3 +338,30 @@ button {
 .social-media a:hover {
   color: #007bff;
 }
+
+/* .kategori {
+  position: fixed;
+  width: 100%;
+  margin-top: 60px;
+  background-color: #fefefe;
+  z-index: 1;
+  margin-bottom: 100px;
+} */
+.navbar-kategori ul{
+  display: flex;
+  margin: 10px;
+}
+.navbar-kategori li{
+  margin: 10px;
+  color: #243757;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-kategori ul li.underline-text {
+  text-decoration: underline;
+  text-decoration-color: #007bff;
+  text-underline-offset: 50%;
+  text-decoration-thickness: 2px; 
+}
+
